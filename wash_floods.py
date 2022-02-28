@@ -58,19 +58,19 @@ for i in range(num_simulations):
         flood = sim_year()
         # Result if 500-year flood occurs
         if flood == '500-Year':
-            balance.append(balance[-1] + 30000000)
+            balance.append(balance[-1] + 16000000)
             num_floods += 1
         # Result if 100-year flood occurs
         elif flood == '100-Year':
-            balance.append(balance[-1] + 18000000)
+            balance.append(balance[-1] + 10000000)
             num_floods += 1
         # Result if 25-year flood occurs
         elif flood == '25-Year':
-            balance.append(balance[-1] + 12000000)
+            balance.append(balance[-1] + 7000000)
             num_floods += 1
         # Result if 10-year flood occurs
         elif flood == '10-Year':
-            balance.append(balance[-1] + 8000000)
+            balance.append(balance[-1] + 5000000)
             num_floods += 1
         else:
             balance.append(balance[-1])
